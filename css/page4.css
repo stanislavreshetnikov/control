@@ -1,0 +1,59 @@
+body {
+	background: url(Blind.jpg);
+}
+
+h1 {
+	font-family: Gabriola;
+	color: Goldenrod;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: Gabriola;
+	color: DarkSlateGrey;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+p {
+	font-family: serif;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: justify;
+	text-indent: 10pt;
+	font-style: oblique;
+}
+
+figure {
+ 	text-align: center;
+ 	float: center;
+ 	padding: 13px;
+ 	max-width: 100%;
+ 	margin: 0 auto;
+ 	box-shadow: 0 0 0 3px #fff, 5 0 2px 3px; /* рамка (она же отступ и тень) блока */
+}
+
+.photo img {
+  	border: 1px solid black; /* Рамка вокруг фотографии */
+  	padding: 5px; /* Расстояние от картинки до рамки */
+ 	background: #d9dabb; /* Цвет фона */
+  	margin-right: 5px; /* Отступ справа */
+  	margin-bottom: 5px; /* Отступ снизу */
+  	box-shadow: 0 0 0 5px #fff, 0 0 4px 5px; /* рамка (она же отступ и тень) блока */
+}
+
+figcaption {
+	font-family: serif;
+	font-size: 25px;
+	font-weight: 90;
+	text-align: center;
+	font-style: oblique;
+}
+
+.foot {
+	font-family: serif;
+	font-size: 10pt;
+	font-weight: 50;
+	text-align: center;
+	text-indent: 20px;
+}
